@@ -6,7 +6,7 @@
 #### My explanation
 
 This cronjob removes every hour all pods in default namespace in status "Running"
-Before cronjob and accounts placed deployment for nginx for testing purposes in [cronjob.yaml](https://github.com/Leilry/k8s-pods-restart/blob/master/cronjob.yaml)
+Before cronjob and accounts placed deployment for nginx for testing purposes in [cronjob.yaml](https://github.com/Leilry/k8s-pods-restart/blob/main/helm-restart/Chart.yaml)
 Tested in minikube version: v1.24.0
 
 #### Installation
@@ -29,4 +29,4 @@ helm uninstall pod-restart
 
 #### Namespace changes
 
-If you want change namespace, please, change it in [values.yaml](https://github.com/Leilry/k8s-pods-restart/blob/master/values.yaml#L7)
+If you want change namespace, please, change it in [values.yaml](https://github.com/Leilry/k8s-pods-restart/blob/main/helm-restart/values.yaml#L7)
