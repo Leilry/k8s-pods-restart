@@ -1,0 +1,7 @@
+accountName:
+  name: deleting-pods-account
+job:
+    name: deleting-pods
+    image: bitnami/kubectl
+    schedule: "*/2 * * * *"
+    namespace: default
