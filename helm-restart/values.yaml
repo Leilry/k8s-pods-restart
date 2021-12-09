@@ -3,5 +3,5 @@ accountName:
 job:
     name: deleting-pods
     image: bitnami/kubectl
-    schedule: "*/2 * * * *"
+    schedule: "0 */1 * * *" #At minute 0 past every hour
     namespace: default
